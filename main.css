@@ -34,7 +34,8 @@
     .heading h1{
         position: absolute;
         top: 15%;
-        left: 36.4%;
+        left: 32.4%;
+        left: 32.4%;
         color: var(--White);
         font-size: 27px;
         font-weight: 700;
@@ -65,7 +66,7 @@
         width: 201px;
         height: 178px;
         top: 30%;
-        left: 28%;
+        left: 21%;
     }
     
     .first-half{
@@ -91,7 +92,7 @@
         -webkit-background-clip: text;
         color: transparent;
         top: 32.6%;
-        left: 29.3%;
+        left: 23.3%;
     }
     /************************************/
     .box2{
@@ -99,7 +100,7 @@
         width: 201px;
         height: 178px;
         top: 30%;
-        left: 40%;
+        left: 38.6%;
     }
     
 
@@ -111,7 +112,7 @@
         -webkit-background-clip: text;
         color: transparent;
         top: 32.6%;
-        left: 41.6%;
+        left: 41.2%;
     }
     
     /************************************/
@@ -120,7 +121,7 @@
         width: 201px;
         height: 178px;
         top: 30%;
-        left: 51%;
+        left: 56.3%;
     }
     
 
@@ -132,7 +133,7 @@
         -webkit-background-clip: text;
         color: transparent;
         top: 32.6%;
-        left: 52.6%;
+        left: 58.8%;
     }
     
     
@@ -142,7 +143,7 @@
         width: 201px;
         height: 178px;
         top: 30%;
-        left: 62%;
+        left: 74%;
     }
     
 
@@ -154,7 +155,7 @@
         -webkit-background-clip: text;
         color: transparent;
         top: 32.6%;
-        left: 63.7%;
+        left: 77%;
     }
     
     p{
