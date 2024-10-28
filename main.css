@@ -90,7 +90,7 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 33.1%;
+        top: 34.1%;
         left: 24.9%;
     }
     /************************************/
@@ -110,7 +110,7 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 32.9%;
+        top: 33.9%;
         left: 38.7%;
     }
     
@@ -131,7 +131,7 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 32.9%;
+        top: 33.9%;
         left: 52.5%;
     }
     
@@ -153,8 +153,8 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 33%;
-        left: 65.8%;
+        top: 34%;
+        left: 65.7%;
     }
     
     p{
