@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Grayish-blue: hsl(237, 18%, 59%);
+    --Soft-red: hsl(345, 95%, 68%);
+    --White: hsl(0, 0%, 100%);
+    --Dark-desaturated-blue: hsl(236, 21%, 26%);
+    --Very-dark-blue: hsl(235, 16%, 14%);
+    --Very-dark-mostly-black-blue: hsl(234, 17%, 12%);
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-image: linear-gradient(to top, #332536, var(--Very-dark-blue));
+        height: 100vh;
+        position: relative;
+        font-family: "Work Sans", serif;
+    }
+
+    .stars img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .hills img{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .heading h1{
+        position: absolute;
+        top: 15%;
+        left: 36.4%;
+        color: var(--White);
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+    }
+
+    .social{
+        position: absolute;
+        bottom: 10%;
+        left: 46%;
+    }
+    .social img {
+        margin-right: 40px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        transition: filter 0.3s ease; 
+    }
+    
+    .social img:hover {
+        filter: brightness(0) saturate(100%) invert(43%) sepia(88%) saturate(5900%) hue-rotate(315deg) brightness(98%) contrast(103%);
+    }
+    
+    
+    .box1{
+        position: absolute;
+        width: 201px;
+        height: 178px;
+        top: 30%;
+        left: 28%;
+    }
+    
+    .first-half{
+        height: 50%;
+        width: 100%;
+        background-color: hsl(237.6deg 21.15% 17.16%);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .second-half{
+        height: 50%;
+        width: 100%;
+        background-color: hsl(236deg 24.8% 22.46% / 86%);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    #days{
+        position: absolute;
+        font-size: 109px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 32.6%;
+        left: 29.3%;
+    }
+    /************************************/
+    .box2{
+        position: absolute;
+        width: 201px;
+        height: 178px;
+        top: 30%;
+        left: 40%;
+    }
+    
+
+
+    #hours{
+        position: absolute;
+        font-size: 109px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 32.6%;
+        left: 41.6%;
+    }
+    
+    /************************************/
+    .box3{
+        position: absolute;
+        width: 201px;
+        height: 178px;
+        top: 30%;
+        left: 51%;
+    }
+    
+
+
+    #minutes{
+        position: absolute;
+        font-size: 109px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 32.6%;
+        left: 52.6%;
+    }
+    
+    
+    /************************************/
+    .box4{
+        position: absolute;
+        width: 201px;
+        height: 178px;
+        top: 30%;
+        left: 62%;
+    }
+    
+
+
+    #seconds{
+        position: absolute;
+        font-size: 109px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 32.6%;
+        left: 63.7%;
+    }
+    
+    p{
+        color: var(--Grayish-blue);
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 23px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 375px) {
+    body {
+        background-image: linear-gradient(to top, #332536, var(--Very-dark-blue));
+        height: 100vh;
+        position: relative;
+        font-family: "Work Sans", serif;
+    }
+
+    .stars img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .hills img{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 30%;
+    }
+    .heading h1{
+        position: absolute;
+        top: 21%;
+        left: 2.4%;
+        color: var(--White);
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+
+    .social{
+        position: absolute;
+        bottom: 11%;
+        left: 24%;
+    }
+    .social img {
+        margin-right: 40px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        transition: filter 0.3s ease; 
+    }
+    
+    .social img:hover {
+        filter: brightness(0) saturate(100%) invert(43%) sepia(88%) saturate(5900%) hue-rotate(315deg) brightness(98%) contrast(103%);
+    }
+
+
+    /***************************/
+
+        
+    .box1{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 33%;
+        left: 5%;
+    }
+    
+    .first-half{
+        height: 50%;
+        width: 100%;
+        background-color: hsl(237.6deg 21.15% 17.16%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .second-half{
+        height: 50%;
+        width: 100%;
+        background-color: hsl(236deg 24.8% 22.46% / 86%);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #days{
+        position: absolute;
+        font-size: 36px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 34.8%;
+        left: 8.5%;
+    }
+    /************************************/
+
+    .box2{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 33%;
+        left: 28%;
+    }
+    
+
+
+    #hours{
+        position: absolute;
+        font-size: 36px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 34.9%;
+        left: 31.6%;
+    }
+    /***************************************/
+    .box3{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 33%;
+        left: 51%;
+    }
+    
+
+
+    #minutes{
+        position: absolute;
+        font-size: 36px;
+        background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        top: 34.9%;
+        left: 54.9%;
+    }
+
+        /************************************/
+        .box4{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: 33%;
+            left: 74%;
+        }
+        
+    
+    
+        #seconds{
+            position: absolute;
+            font-size: 36px;
+            background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
+            -webkit-background-clip: text;
+            color: transparent;
+            top: 34.6%;
+            left: 78.1%;
+        }
+
+        p{
+            color: var(--Grayish-blue);
+            font-size: 7px;
+            font-weight: 500;
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+}
+
+
+
+
+
+
+
+
