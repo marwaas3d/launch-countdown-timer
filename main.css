@@ -35,9 +35,8 @@
         position: absolute;
         top: 15%;
         left: 32.4%;
-        left: 32.4%;
         color: var(--White);
-        font-size: 27px;
+        font-size: 17px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 14px;
@@ -63,10 +62,10 @@
     
     .box1{
         position: absolute;
-        width: 201px;
-        height: 178px;
+        width: 161px;
+        height: 151px;
         top: 30%;
-        left: 21%;
+        left: 23%;
     }
     
     .first-half{
@@ -87,75 +86,75 @@
 
     #days{
         position: absolute;
-        font-size: 109px;
+        font-size: 83px;
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 32.6%;
-        left: 23.3%;
+        top: 33.1%;
+        left: 24.9%;
     }
     /************************************/
     .box2{
         position: absolute;
-        width: 201px;
-        height: 178px;
+        width: 161px;
+        height: 151px;
         top: 30%;
-        left: 38.6%;
+        left: 36.6%;
     }
     
 
 
     #hours{
         position: absolute;
-        font-size: 109px;
+        font-size: 83px;
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 32.6%;
-        left: 41.2%;
+        top: 32.9%;
+        left: 38.7%;
     }
     
     /************************************/
     .box3{
         position: absolute;
-        width: 201px;
-        height: 178px;
+        width: 161px;
+        height: 151px;
         top: 30%;
-        left: 56.3%;
+        left: 50.3%;
     }
     
 
 
     #minutes{
         position: absolute;
-        font-size: 109px;
+        font-size: 83px;
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 32.6%;
-        left: 58.8%;
+        top: 32.9%;
+        left: 52.5%;
     }
     
     
     /************************************/
     .box4{
         position: absolute;
-        width: 201px;
-        height: 178px;
+        width: 161px;
+        height: 151px;
         top: 30%;
-        left: 74%;
+        left: 64%;
     }
     
 
 
     #seconds{
         position: absolute;
-        font-size: 109px;
+        font-size: 83px;
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 32.6%;
-        left: 77%;
+        top: 33%;
+        left: 66.5%;
     }
     
     p{
