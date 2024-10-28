@@ -49,8 +49,8 @@
     }
     .social img {
         margin-right: 40px;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         cursor: pointer;
         transition: filter 0.3s ease; 
     }
@@ -71,7 +71,7 @@
     .first-half{
         height: 50%;
         width: 100%;
-        background-color: hsl(237.6deg 21.15% 17.16%);
+        background-color: hsl(236deg 24.8% 22.46% / 86%);
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
@@ -79,9 +79,11 @@
     .second-half{
         height: 50%;
         width: 100%;
-        background-color: hsl(236deg 24.8% 22.46% / 86%);
+        background-color: hsl(237deg 15.37% 29.76%);
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
+        box-shadow: 1px 10px 6px black;
+        
     }
 
     #days{
@@ -145,6 +147,7 @@
         left: 64%;
     }
     
+    
 
 
     #seconds{
@@ -154,12 +157,12 @@
         -webkit-background-clip: text;
         color: transparent;
         top: 34%;
-        left: 65.7%;
+        left: 66%;
     }
     
     p{
         color: var(--Grayish-blue);
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
         margin-top: 23px;
         text-align: center;
@@ -170,7 +173,7 @@
 @media (max-width: 375px) {
     body {
         background-image: linear-gradient(to top, #332536, var(--Very-dark-blue));
-        height: 100vh;
+        height: 96vh;
         position: relative;
         font-family: "Work Sans", serif;
     }
@@ -226,22 +229,24 @@
         top: 33%;
         left: 5%;
     }
-    
     .first-half{
         height: 50%;
         width: 100%;
-        background-color: hsl(237.6deg 21.15% 17.16%);
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        background-color: hsl(236deg 24.8% 22.46% / 86%);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
     .second-half{
         height: 50%;
         width: 100%;
-        background-color: hsl(236deg 24.8% 22.46% / 86%);
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        background-color: hsl(237deg 15.37% 29.76%);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: 1px 10px 6px black;
+        
     }
+
 
     #days{
         position: absolute;
@@ -249,7 +254,7 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 34.8%;
+        top: 35.1%;
         left: 8.5%;
     }
     /************************************/
@@ -270,7 +275,7 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 34.9%;
+        top: 35.1%;
         left: 31.6%;
     }
     /***************************************/
@@ -290,7 +295,7 @@
         background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
         -webkit-background-clip: text;
         color: transparent;
-        top: 34.9%;
+        top: 35.1%;
         left: 54.9%;
     }
 
@@ -311,7 +316,7 @@
             background-image: linear-gradient(to top, var(--Soft-red) 50%, #ec4770de 50%);
             -webkit-background-clip: text;
             color: transparent;
-            top: 34.6%;
+            top: 35.1%;
             left: 78.1%;
         }
 
