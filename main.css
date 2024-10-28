@@ -72,16 +72,14 @@
         height: 50%;
         width: 100%;
         background-color: hsl(236deg 24.8% 22.46% / 86%);
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-radius: 15px;
     }
 
     .second-half{
         height: 50%;
         width: 100%;
         background-color: hsl(237deg 15.37% 29.76%);
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        border-radius: 15px;
         box-shadow: 1px 10px 6px black;
         
     }
@@ -233,16 +231,14 @@
         height: 50%;
         width: 100%;
         background-color: hsl(236deg 24.8% 22.46% / 86%);
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-radius: 15px;
     }
 
     .second-half{
         height: 50%;
         width: 100%;
         background-color: hsl(237deg 15.37% 29.76%);
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        border-radius: 15px;
         box-shadow: 1px 10px 6px black;
         
     }
